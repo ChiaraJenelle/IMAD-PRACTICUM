@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/dayDetails"
-        android:layout_width="399dp"
-        android:layout_height="21dp"
+        android:layout_width="396dp"
+        android:layout_height="7dp"
         android:layout_margin="8dp"
         android:layout_marginTop="4dp"
         android:text="Day Details"
@@ -23,18 +23,21 @@
 
     <TextView
         android:id="@+id/minTemp"
-        android:layout_width="402dp"
-        android:layout_height="30dp"
+        android:layout_width="396dp"
+        android:layout_height="8dp"
         android:layout_margin="8dp"
         android:text="Minimum temperature"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/dayDetails" />
+        app:layout_constraintTop_toBottomOf="@id/dayDetails"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/maxTemp"
-        android:layout_width="394dp"
-        android:layout_height="29dp"
+        android:layout_width="393dp"
+        android:layout_height="8dp"
         android:layout_margin="8dp"
         android:text="maximum temperature"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,8 +49,8 @@
 
     <TextView
         android:id="@+id/weatherCon"
-        android:layout_width="399dp"
-        android:layout_height="48dp"
+        android:layout_width="394dp"
+        android:layout_height="493dp"
         android:layout_margin="8dp"
         android:layout_marginTop="32dp"
         android:text="weather conditions"
